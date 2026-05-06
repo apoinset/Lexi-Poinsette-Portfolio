@@ -1,13 +1,79 @@
 /* CSS by Lexi Poinsette */
 /* Color Palette
-Deep Black=#05080D
-Slate Blue=#65768C
-Steel Blue=#263640
-Burnt Orange=#BF5B04
-Earth=#733917
+Magenta=#B7418B
+Light Pink=#FFC0E8
+Light Purple=#B977E6
+Grape=#9113F7
+Dark Purple=#673ECF
 */
 
 /* GLOBAL (base) MOBILE FIRST */
+@media screen and (min-width:600px){
 body {
-    background-color:#65768C ;
+    background-color:#FFC0E8;
+    font-family:fantasy;
+    margin:0;
+    color:#B7418B;
+    display:grid;
+    grid-template-columns: 1fr;
+}
+}
+
+header {
+    background-color:#673ECF;
+    color:#B977E6;
+    text-align:center;
+    padding:1rem;
+     background-image: url("https://images.unsplash.com/photo-1774798545654-ea73c0599c61?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMjM4NDZ8MHwxfHJhbmRvbXx8fHx8fHx8fDE3NzgwMzIyMzV8&ixlib=rb-4.1.0&q=85");
+    background-size: cover;
+}
+
+h2 {
+    text-decoration: underline;
+}
+
+nav {
+    background-color:#B7418B;
+    padding:.5rem;
+}
+
+nav ul {
+    list-style:none;
+    display: flex;
+    justify-content: center;
+    border: 4px dotted #673ECF;
+    font-size:2rem;
+    padding:01rem;
+    margin:0;
+}
+
+nav a {
+    color: #9113F7;
+    text-decoration: none;
+    padding: 1rem;
+    display: inline-block;
+    text-transform:uppercase;
+}
+
+nav a:hover {
+    background-color:#673ECF;
+    border:solid #FFC0E8;
+}
+
+main {
+    padding:5rem;
+    font-size: 2rem;
+    font-style: oblique;
+}
+
+img {
+    display:block;
+    margin: 0 auto;
+}
+.image-row {
+  display: flex;
+  gap: 10px;
+}
+footer{
+    border:dotted #9113F7;
 }

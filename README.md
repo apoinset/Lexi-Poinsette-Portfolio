@@ -1,5 +1,9 @@
 # Lexi Poinsette Portfolio
 My first portfolio
-Basic html and css applied to a multi-page portfolio website
-Pgaes include about, projects, and contact
+Applied CSS to the HTML of a multi-page website
+Pages include about, projects, and contact
+Added personal information and images to appropriate pages
+Styled the font and text colors on all pages
+Added image to the header
+Added media query
 https://apoinset.github.io/Lexi-Poinsette-Portfolio/
